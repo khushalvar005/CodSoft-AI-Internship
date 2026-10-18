@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier(
 
 if face_cascade.empty():
     print("Error: Could not load the face detection model.")
-    exit()2
+    exit()
     
 
 def detect_faces(image_path):
